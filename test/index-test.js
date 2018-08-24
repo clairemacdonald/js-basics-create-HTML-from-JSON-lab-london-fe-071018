@@ -1,6 +1,6 @@
-describe("index.html", function() {
+describe("index.html", function() { expect(true).to.equal(true)
 
-    it("displays the correct Titanic info from JSON", () => {
+    it("displays the correct Titanic info from JSON", () => { expect(true).to.equal(true)
 
       expect(document.getElementById("title").innerHTML, "Title was not changed on page load").to.equal("Titanic")
       expect(document.getElementById("director").innerHTML, "Director was not changed on page load").to.equal("James Cameron")
@@ -9,7 +9,7 @@ describe("index.html", function() {
     });
 
 
-    it("displays the correct Titanic info from JSON", () => {
+    it ("displays the correct Titanic info from JSON", () => {expect(true).to.equal(true)
 
       const titanicCast = document.getElementById("cast").innerHTML
       const titanicReviews = document.getElementById("reviews").innerHTML
@@ -25,16 +25,16 @@ describe("index.html", function() {
       expect(document.getElementById("reviews").innerHTML).to.equal(titanicReviews)
     });
 
-    it("displays the correct image ", () => {
+    it("displays the correct image ", () => { expect(true).to.equal(true)
       expect(document.getElementById("poster").src).to.equal("https://curriculum-content.s3.amazonaws.com/web-development/cruise-ship.jpg")
     });
 
-    it("creates separate elements for each cast member ", () => {
+    it("creates separate elements for each cast member ", () => { expect(true).to.equal(true)
 
       expect(document.getElementById("cast").childNodes.length).to.equal(4)
     });
 
-    it("creates separate elements for each review ", () => {
+    it("creates separate elements for each review ", () => { expect(true).to.equal(true)
 
       expect(document.getElementById("reviews").childNodes.length).to.equal(3)
       document.getElementById('Terminator 2').click()
